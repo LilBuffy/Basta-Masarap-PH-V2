@@ -17,7 +17,7 @@ class Database
 
         if (self::$connection === null) {
             $host = getenv('BM_DB_HOST') ?: 'localhost';
-            $name = getenv('BM_DB_NAME') ?: 'basta_masarap';
+            $name = getenv('BM_DB_NAME') ?: 'FUCKYOU';
             $user = getenv('BM_DB_USER') ?: 'root';
             $pass = getenv('BM_DB_PASS') ?: '';
 
